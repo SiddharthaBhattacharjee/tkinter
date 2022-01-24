@@ -1,4 +1,5 @@
 from tkinter import *
+
 root=Tk()
 root.geometry("600x400")
 
@@ -10,6 +11,7 @@ def getval():
     print(f"phone number is {Phone_numberentry.get()}")
     print(f"Address is {Addressentry.get()}")
     print(f"Details of hostel {var1.get()}")
+    
 #to enter the values in a txt file
     with open("records.txt","a") as f:
         f.write((f"name is {Nameentry.get()}\n")),

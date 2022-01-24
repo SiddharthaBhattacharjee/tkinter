@@ -1,5 +1,6 @@
 import sys
 from tkinter import *
+
 var=Tk()
 var.geometry("600x340")
 
